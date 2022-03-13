@@ -4,7 +4,7 @@ num = map(int,sys.stdin.readlines())
 for i in num:
     list += [i]
 print(max(list))
-print(list.index(max(list))+1)
+print(list.index(max(list))+1) #이게되네
 
 
 

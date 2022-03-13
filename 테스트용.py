@@ -1,7 +1,16 @@
-t = int(input())
+N = int(input())
 
-for _ in range(t):  
-    floor = int(input())  # 층
-    num = int(input())  # 호
-    f0 = [x for x in range(1, num+1)] 
-    print(f0)
+bag = 0
+while N>=0:
+    if N % 5 == 0:
+       bag += N//5
+       print(bag)
+       break
+    N -= 3
+    bag +=1
+else:
+    print(-1)
+
+
+
+
