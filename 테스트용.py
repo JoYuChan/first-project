@@ -1,16 +1,6 @@
-N = int(input())
-
-bag = 0
-while N>=0:
-    if N % 5 == 0:
-       bag += N//5
-       print(bag)
-       break
-    N -= 3
-    bag +=1
-else:
-    print(-1)
-
-
-
-
+m = int(input())
+n = int(input())
+mn = [x for x in range(m, n+1)]
+new_mn = []
+for i in mn:
+    print(i)

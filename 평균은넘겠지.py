@@ -4,4 +4,4 @@ for i in range(n+1):
     sum = 0
     for a in score:
         sum += a
-    print((sum-n)/n,"%")
+    print((sum-n)/n,"%") #이게되네
